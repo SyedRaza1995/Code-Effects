@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Effects - Why Code Effects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Inter+Tight:wght@400&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <div class="logo-wrapper">
+          <img src="images/12_2190.svg" alt="Code Effects Logo" class="logo-svg" />
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#section-what-is">Platform
+              <span>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.51503 6.85L0.640027 2C0.415027 1.75 0.415027 1.375 0.640027 1.15L1.21503 0.575C1.44003 0.35 1.81503 0.35 2.06503 0.575L5.94003 4.425L9.79003 0.575C10.04 0.35 10.415 0.35 10.64 0.575L11.215 1.15C11.44 1.375 11.44 1.75 11.215 2L6.34003 6.85C6.11503 7.075 5.74003 7.075 5.51503 6.85Z"
+                    fill="#1B152B" />
+                </svg>
+              </span></a></li>
+          <li class="nav-item"><a href="#section-benefits">Resources
+              <span>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.51503 6.85L0.640027 2C0.415027 1.75 0.415027 1.375 0.640027 1.15L1.21503 0.575C1.44003 0.35 1.81503 0.35 2.06503 0.575L5.94003 4.425L9.79003 0.575C10.04 0.35 10.415 0.35 10.64 0.575L11.215 1.15C11.44 1.375 11.44 1.75 11.215 2L6.34003 6.85C6.11503 7.075 5.74003 7.075 5.51503 6.85Z"
+                    fill="#1B152B" />
+                </svg>
+              </span></a></li>
+          <li class="nav-item"><a href="#">Live Demos
+              <span>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.51503 6.85L0.640027 2C0.415027 1.75 0.415027 1.375 0.640027 1.15L1.21503 0.575C1.44003 0.35 1.81503 0.35 2.06503 0.575L5.94003 4.425L9.79003 0.575C10.04 0.35 10.415 0.35 10.64 0.575L11.215 1.15C11.44 1.375 11.44 1.75 11.215 2L6.34003 6.85C6.11503 7.075 5.74003 7.075 5.51503 6.85Z"
+                    fill="#1B152B" />
+                </svg>
+              </span></a></li>
+          <li class="nav-item"><a href="#">Licensing</a></li>
+          <li class="nav-item"><a href="#">Support</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn-primary login-btn">Log In</a>
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="section-hero" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content animate">
+        <h1 id="heading">What Makes Code Effects the Superior Rules Engine
+        </h1>
+        <p id="paragraph">
+          Code Effects is known for its speed and ease of implementation, requiring just a few days to integrate into
+          any new or existing .NET project. While our online documentation offers more in-depth information, what truly
+          sets Code Effects apart is its exceptional performance, rich feature set, and revolutionary user
+          interface.<br>
+          Other qualities that make Code Effects stand out become especially clear when compared to current business
+          rules formats and user interfaces used across the BRM industry. Let’s explore some of those examples and see
+          how Code Effects measures up.
+        </p>
+        <div class="hero-features">
+          <div class="feature-item">
+            <img src="images/star_svgrepo.com.svg" alt="Uptime Icon" />
+            <span id="paragraph">4.8/5 on G2</span>
+          </div>
+          <div class="feature-item">
+            <img src="images/team_svgrepo.com.svg" alt="Integration Icon" />
+            <span id="paragraph">1,000+ Developers</span>
+          </div>
+          <div class="feature-item">
+            <img src="images/Vector (22).svg" alt="Trusted Icon" />
+            <span id="paragraph">SOC2 Compliant</span>
+          </div>
+        </div>
+        <div class="note">
+          <p id="paragraph">"Trusted by Fortune 500 companies worldwide"</p>
+        </div>
+      </div>
+
+      <div class="hero-form-wrapper">
+        <form class="hero-form">
+          <h3 id="sub-heading">Get a Demo</h3>
+          <p id="paragraph">
+            See how easy it is to implement business rules
+          </p>
+
+          <div class="form-group"><input type="text" placeholder="Full Name" /></div>
+          <div class="form-group"><input type="email" placeholder="Business Email" /></div>
+          <div class="form-group"><input type="text" placeholder="Company Name" /></div>
+          <div class="form-group"><textarea placeholder="Tell us about your use case"></textarea></div>
+
+          <button type="submit" class="btn btn-primary form-submit-btn">
+            Request Demo
+            <img src="images/arrow-up-right_svgrepo.com.svg" alt="" class="btn-icon" />
+          </button>
+
+          <div class="form-note">
+            <img src="images/lock-alt_svgrepo.com.svg" alt="" />
+            <p id="paragraph">We never share your data. Privacy guaranteed.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <div class="decision-wrapper">
+    <h2 id="heading" style="text-align: center;">User Interface</h2>
+    <section id="decision-features">
+      <!-- LEFT CONTENT -->
+      <div class="decision-text">
+        <h2 id="heading">Decision Tables</h2>
+        <p id="paragraph">
+          This is the type of business rules format commonly used by most Business Rules Management (BRM) software
+          today. At first glance, the decision table shown here may appear straightforward, but it actually represents a
+          very basic—and arguably outdated—approach to rule definition.
+        </p>
+        <p id="paragraph">
+          In most cases, a rule author must possess a deep familiarity with the vendor-specific decision state
+          structure, syntax, and logic conventions in order to create, modify, or maintain rules without error. This
+          steep learning curve makes it difficult for non-technical users to manage rules independently.
+        </p>
+        <p id="paragraph">
+          As a result, decision table management is rarely a task handled solely by business users. Instead, it
+          typically becomes a shared responsibility between business analysts and a dedicated IT team, slowing down the
+          rule development process and reducing overall agility.
+        </p>
+        <p id="paragraph">
+          This dependency highlights one of the major limitations of traditional BRM tools—and one of the key problems
+          that Code Effects was designed to solve.
+        </p>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <article class="decision-card">
+        <div class="decision-inner">
+          <div class="decision-figure">
+            <img src="images/DecisionTable 1.png" alt="Decision Table Illustration">
+          </div>
+        </div>
+      </article>
+
+    </section>
+    <section id="decision-features">
+      <!-- RIGHT CARD -->
+      <article class="decision-card">
+        <div class="decision-inner">
+          <div class="decision-figure">
+            <img src="images/Microsoft 1.png" alt="Decision Table Illustration">
+          </div>
+        </div>
+      </article>
+
+      <!-- LEFT CONTENT -->
+      <div class="decision-text">
+        <h2 id="heading">Decision Tables</h2>
+        <p id="paragraph">
+          This clickable screenshot demonstrates a rule created with Microsoft’s latest open-source business rules
+          engine. Although the rule is very simple, it lacks any visual representation—what you see is just the raw,
+          text-based definition
+        </p>
+        <p id="paragraph">
+          While this approach may suit developers, it’s not practical for business users. There’s no visual guidance, no
+          intuitive interface, and no way to preview or safely modify rules without technical knowledge. Even minor
+          changes require IT involvement.
+        </p>
+        <p id="paragraph">
+          This creates unnecessary bottlenecks and keeps rule management out of reach for non-technical teams.
+        </p>
+        <p id="paragraph">
+          Code Effects solves this by offering a fully visual, user-friendly interface designed for both business and IT
+          users.
+        </p>
+      </div>
+    </section>
+    <section id="decision-features">
+      <!-- LEFT CONTENT -->
+      <div class="decision-text">
+        <h2 id="heading">Drag and Drop Desktop Interfaces</h2>
+        <p id="paragraph">
+          Can you truly visualize the business logic behind the typical drag-and-drop interface shown above? While
+          on-screen manipulation of rule elements may seem convenient at first, in real-life scenarios this ease is
+          often overshadowed by the editor’s complexity. Users must carefully arrange each condition of the rule and
+          then define every action or value setter—either by navigating through numerous dialogs and panels or by
+          writing code in a proprietary programming language.
+          Having to deal with this type of UI, it’s often easier and more effective to write the rule directly in code
+          and redeploy the project rather than trying to craft even a simple rule through the editor.
+        </p>
+        <p id="paragraph">
+          Many BRM vendors claim their products "require no IT involvement." However, the reality is that rule authors
+          often need some programming skills to accurately express complex, real-world business logic within the
+          constraints of various user interfaces and rule formats. This reliance on technical expertise limits true
+          business user independence and slows down the rule management process.
+        </p>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <article class="decision-card">
+        <div class="decision-inner">
+          <div class="decision-figure">
+            <img src="images/Dnd 1.png" alt="Decision Table Illustration">
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="decision-features">
+      <!-- RIGHT CARD -->
+      <article class="decision-card">
+        <div class="decision-inner">
+          <div class="decision-figure">
+            <img src="images/CeUI 1.png" alt="Decision Table Illustration">
+          </div>
+        </div>
+      </article>
+
+      <!-- LEFT CONTENT -->
+      <div class="decision-text">
+        <h2 id="heading">Code Effect's User Interface</h2>
+        <p id="paragraph">
+          This screenshot shows the Code Effects rule area, captured directly from the Live Demo on this website. In
+          this example, we’ve entered a quick, fictional rule one that may not make perfect business sense, but
+          effectively highlights just how easy and intuitive our web-based interface really is. At a glance, anyone can
+          read and understand the logic of the rule without needing technical training or coding experience.
+        </p>
+        <p id="paragraph">
+          The interface is designed to feel natural, even to non-technical users. Every rule element is readable,
+          interactive, and easy to modify. Plus, the editor can display and even dynamically translate the entire rule
+          into any language of your choice—making it ideal for global teams and multinational operations.
+          Most modern BRM vendors focus on building feature-heavy interfaces tailored to developers—if they offer a rule
+          editor at all. This approach often sidelines business professionals and forces companies to depend on IT for
+          even the smallest rule changes. Over time, that leads to slower processes, higher costs, and reduced agility.
+        </p>
+        <p id="paragraph">
+          Code Effects was built to change that. Since 2009, our mission has been to empower business users—product
+          owners, data analysts, compliance managers—to take full control of the logic that drives their systems. With
+          Code Effects, rule creation is no longer a technical barrier but a strategic asset.
+        </p>
+      </div>
+    </section>
+    <section id="decision-features">
+      <!-- LEFT CONTENT -->
+      <div class="decision-text">
+        <h2 id="heading">Publicly Accessible Web-Based UI Tables</h2>
+        <p id="paragraph">
+          One of the most powerful and unique features of Code Effects is its fully web-based rules UI. Unlike other
+          business rules solutions that attempt to build complex web forms — like the ones shown here — in order to give
+          public users the ability to define their own rules, our streamlined interface can be embedded directly into
+          any web page. This enables even public users to define and manage their own business rules without any
+          knowledge of your data structure and without struggling with overly complicated forms.<br>
+          This capability is especially critical for applications that require user-defined logic, such as
+          customer-facing platforms or self-service portals. Traditional rule formats like decision tables or
+          drag-and-drop editors are far too complex for non-technical users. Before Code Effects, companies had no
+          choice but to build custom web editors in-house, typically pairing them with an open-source engine. That
+          process — developing the form, integrating it with the host system, implementing rule evaluation, testing, and
+          deploying — often took weeks or months, not to mention the time spent on discovery, planning, and design. And
+          even then, the result was rarely user-friendly.<br>
+          If you’ve been researching the BRM space, you may have already noticed something else: Code Effects is the
+          only vendor that offers a real, live demo right on our website. Why? Because we trust you — the public user —
+          to explore the interface, create a basic rule, and understand how it works without needing a sales rep to
+          guide you. No hidden features. No hand-holding. No confusion.<br>
+          That alone speaks volumes about the usability and maturity of our solution.
+        </p>
+      </div>
+
+      <!-- RIGHT CARD -->
+      <article class="decision-card last">
+        <div class="decision-inner">
+          <div class="decision-figure">
+            <img src="images/Form 1.png" alt="Decision Table Illustration">
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </div>
+
+  <section id="ce-deploy-section" aria-labelledby="ce-deploy-title">
+    <div class="ce-deploy-container">
+      <div class="ce-deploy-card" id="bg-white">
+        <div class="ce-deploy-inner">
+          <!-- Main Heading -->
+          <h2 class="ce-deploy-title" id="heading">Capabilities</h2>
+
+
+          <ul class="ce-deploy-list">
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                Having the simplest and most intuitive web-based UI doesn’t mean Code Effects lacks the key features
+                commonly found in other BRM solutions. In fact, we offer powerful capabilities that many other engines
+                don’t.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                Support for collection data types, built-in numeric calculations, in-rule methods and rule actions with
+                optional parameters, logic separation with parentheses, reusable rules, rule templates, multiple
+                evaluation modes, automatic rule validation, dynamic help, and automatic detection of circular
+                dependencies and mutually recursive rules — these are just some of the advanced features available in
+                our Rule Editor.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                But the editor is just one part of the platform. Rule evaluation is handled by our high-performance Rule
+                Engine — a thread-safe, .NET Standard library that runs on any .NET platform. It compiles your business
+                rules into native machine code just before execution, making them an integrated part of your
+                application’s runtime. As a result, rule performance is limited only by your hardware.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                We offer performance testing demo projects, so you can see the engine’s speed and efficiency for
+                yourself. Request access through our <a href="#">Support form</a>.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ce-deploy-section" aria-labelledby="ce-deploy-title">
+    <div class="ce-deploy-container">
+      <div class="ce-deploy-card">
+        <div class="ce-deploy-inner">
+          <!-- Main Heading -->
+          <h2 class="ce-deploy-title" id="heading">Deployment</h2>
+          <!-- Sub-heading paragraph -->
+
+          <ul class="ce-deploy-list">
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                One of the key strengths of the Code Effects rules engine is how simple and flexible it is to deploy.
+                Unlike many other BRM solutions that require complex installations, configurations, or hosted services,
+                Code Effects is delivered as a set of lightweight, self-contained .NET assemblies. This makes it
+                incredibly easy to integrate into any new or existing .NET project — whether it’s a desktop application,
+                web service, cloud-hosted platform, or enterprise solution.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                There’s no need to install anything on your servers, set up dedicated infrastructure, or configure
+                special environments. Just reference the assemblies in your project, and you’re ready to go. The engine
+                does not depend on external services, databases, or platform-specific configurations, which means it
+                works equally well in on-premises environments, cloud deployments, containers, or hybrid systems.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                Security is also streamlined. Because everything runs within your existing application stack, there are
+                no separate user access controls, network permissions, or elevated privileges to manage. You remain in
+                full control of your deployment and data, with no external communication or dependencies to expose
+                vulnerabilities. This is especially important for industries with strict compliance requirements or
+                sensitive data policies.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                Whether you’re building a small internal tool or a globally distributed system, Code Effects fits
+                seamlessly into your workflow. Deployment is fast, integration is straightforward, and there’s no hidden
+                complexity—just reference the assemblies, and your rules engine is live.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ce-deploy-section" aria-labelledby="ce-deploy-title">
+    <div class="ce-deploy-container">
+      <div class="ce-deploy-card" id="bg-white">
+        <div class="ce-deploy-inner">
+          <!-- Main Heading -->
+          <h2 class="ce-deploy-title" id="heading">Cost</h2>
+          <ul class="ce-deploy-list">
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                Code Effects offers several perpetual licensing options as well as a Monthly Subscription, with the most
+                popular and cost-effective being the Engine Unlimited license. With all of our licenses, you pay once
+                and own it forever — regardless of how many rules your organization evaluates or how many developers are
+                involved. There are no hidden fees, usage limits, or recurring costs.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                Each license covers your product and everything associated with it — unless you plan to distribute your
+                solution with the embedded Code Effects engine to end users, or you need access to the full source code
+                to modify, extend, or compile it against different frameworks.
+              </p>
+            </li>
+
+            <li class="ce-deploy-item">
+              <img src="images/check.png">
+              <p>
+                We’re also very flexible in our licensing terms. Please use <a href="#">this form</a> to request our
+                price list or ask any questions related to licensing.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== NEWSLETTER ========== -->
+  <section id="section-newsletter" class="newsletter-section">
+    <div class="container newsletter-container">
+      <h2 id="heading">Stay Connected!</h2>
+      <p id="paragraph">Receive email notifications about new updates, releases, and everything related to Code Effects.
+        Your email
+        address will never be sold or <a href="#">misused in any way.</a></p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your Email Address" />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="section-footer" class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <a href="#" class="footer-logo"><img src="images/12_2005.svg" alt="Code Effects Logo" /></a>
+        <p>Code Effects is the fastest and most intuitive business rules engine employed by governments and Fortune 500
+          companies in mission-critical projects all over the world</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Documentation</h4>
+        <ul>
+          <li><a href="#">Code Effect Basics</a></li>
+          <li><a href="#">Creating Rules</a></li>
+          <li><a href="#">Evaluating Rules</a></li>
+          <li><a href="#">Data Filtering</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Purchase</h4>
+        <ul>
+          <li><a href="#">License Types</a></li>
+          <li><a href="#">Request Our Price List</a></li>
+          <li><a href="#">Portal Log In</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Demo</h4>
+        <ul>
+          <li><a href="#">Online Demo</a></li>
+          <li><a href="#">Data Filter Demo</a></li>
+          <li><a href="#">Demo Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">EULA</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2008 - 2025 Code Effects Software</p>
+    </div>
+  </footer>
+
+  <script src="function.js"></script>
+
+</body>
+
+</html>

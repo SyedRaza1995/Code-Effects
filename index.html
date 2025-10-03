@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ========== META ========== -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Code Effects - Business Rule Engine</title>
+
+  <!-- ========== FONTS ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Inter+Tight:wght@400&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet" />
+
+    <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css">
+
+ 
+</head>
+
+<body>
+  <!-- ========== HEADER ========== -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <div class="logo-wrapper">
+          <img src="images/12_2190.svg" alt="Code Effects Logo" class="logo-svg" />
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#section-what-is">Platform
+              <span>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.51503 6.85L0.640027 2C0.415027 1.75 0.415027 1.375 0.640027 1.15L1.21503 0.575C1.44003 0.35 1.81503 0.35 2.06503 0.575L5.94003 4.425L9.79003 0.575C10.04 0.35 10.415 0.35 10.64 0.575L11.215 1.15C11.44 1.375 11.44 1.75 11.215 2L6.34003 6.85C6.11503 7.075 5.74003 7.075 5.51503 6.85Z"
+                    fill="#1B152B" />
+                </svg>
+              </span></a></li>
+          <li class="nav-item"><a href="#section-benefits">Resources
+              <span>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.51503 6.85L0.640027 2C0.415027 1.75 0.415027 1.375 0.640027 1.15L1.21503 0.575C1.44003 0.35 1.81503 0.35 2.06503 0.575L5.94003 4.425L9.79003 0.575C10.04 0.35 10.415 0.35 10.64 0.575L11.215 1.15C11.44 1.375 11.44 1.75 11.215 2L6.34003 6.85C6.11503 7.075 5.74003 7.075 5.51503 6.85Z"
+                    fill="#1B152B" />
+                </svg>
+              </span></a></li>
+          <li class="nav-item"><a href="#">Live Demos
+              <span>
+                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M5.51503 6.85L0.640027 2C0.415027 1.75 0.415027 1.375 0.640027 1.15L1.21503 0.575C1.44003 0.35 1.81503 0.35 2.06503 0.575L5.94003 4.425L9.79003 0.575C10.04 0.35 10.415 0.35 10.64 0.575L11.215 1.15C11.44 1.375 11.44 1.75 11.215 2L6.34003 6.85C6.11503 7.075 5.74003 7.075 5.51503 6.85Z"
+                    fill="#1B152B" />
+                </svg>
+              </span></a></li>
+          <li class="nav-item"><a href="#">Licensing</a></li>
+          <li class="nav-item"><a href="#">Support</a></li>
+        </ul>
+      </nav>
+
+      <a href="#" class="btn btn-primary login-btn">Log In</a>
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section id="section-hero" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content animate">
+        <h1 id="heading">Business Rule Engine</h1>
+        <h1 id="heading">Built for Performance</h1>
+        <p id="paragraph">
+          Empower your applications with dynamic business rules. No coding required. Enterprise-grade performance. Seamless <a href="#">.NET integration.</a>
+        </p>
+        <div class="hero-features">
+          <div class="feature-item">
+            <img src="images/star_svgrepo.com.svg" alt="Uptime Icon" />
+            <span>4.8/5 on G2</span>
+          </div>
+          <div class="feature-item">
+            <img src="images/team_svgrepo.com.svg" alt="Integration Icon" />
+            <span>1,000+ Developers</span>
+          </div>
+          <div class="feature-item">
+            <img src="images/Vector (22).svg" alt="Trusted Icon" />
+            <span>SOC2 Compliant</span>
+          </div>
+        </div>
+        <div class="note">
+          <p id="paragraph">"Trusted by Fortune 500 companies worldwide"</p>
+        </div>
+      </div>
+
+      <div class="hero-form-wrapper">
+        <form class="hero-form">
+          <h3 id="sub-heading">Get a Demo</h3>
+          <p id="paragraph">See how easy it is to implement business rules</p>
+
+          <div class="form-group"><input type="text" placeholder="Full Name" /></div>
+          <div class="form-group"><input type="email" placeholder="Work Email" /></div>
+          <div class="form-group"><input type="text" placeholder="Company Name" /></div>
+          <div class="form-group"><textarea placeholder="Tell us about your use case"></textarea></div>
+
+          <button type="submit" class="btn btn-primary form-submit-btn">
+            Request a Demo
+            <img src="images/arrow-up-right_svgrepo.com.svg" alt="" class="btn-icon" />
+          </button>
+
+          <div class="form-note">
+            <img src="images/lock-alt_svgrepo.com.svg" alt="" />
+            <p id="paragraph">We never share your data. Privacy guaranteed.</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+<section class="customers-hero">
+    <div class="container">
+      <h2 id="heading">Our Customers</h2>
+      <p class="sub" id="paragraph">
+        Bring your company on par with some of the largest and most successful businesses in the world.
+        We are a brand trusted by many government agencies and organizations that have chosen Code Effects’ business rules engine as their automated decision-making solution.
+      </p>
+
+      <!-- ===== DESKTOP/TABLET GRIDS ===== -->
+      <!-- Row 1 (6 images) -->
+      <div class="brand-grid row-1" aria-hidden="true">
+        <div class="logo"><img src="images/chevron.svg" alt="Chevron" /></div>
+        <div class="logo"><img src="images/barclays.svg" alt="Barclays" /></div>
+        <div class="logo"><img src="images/homedepot.svg" alt="The Home Depot" /></div>
+        <div class="logo"><img src="images/ey.svg" alt="EY" /></div>
+        <div class="logo"><img src="images/corelogic.svg" alt="CoreLogic" /></div>
+        <div class="logo"><img src="images/dupont.svg" alt="DuPont" /></div>
+      </div>
+
+      <!-- Row 2 (3 images centered) -->
+      <div class="brand-grid row-2" aria-hidden="true">
+        <div class="logo"><img src="images/Reuters.svg" alt="Thomson Reuters" /></div>
+        <div class="logo"><img src="images/MassMutual.svg" alt="MassMutual" /></div>
+        <div class="logo"><img src="images/moodys.svg" alt="Moody’s" /></div>
+      </div>
+
+      <!-- Row 3 (6 images) -->
+      <div class="brand-grid row-3" aria-hidden="true">
+        <div class="logo"><img src="images/verizon.svg" alt="Verizon" /></div>
+        <div class="logo"><img src="images/pwc.svg" alt="PwC" /></div>
+        <div class="logo"><img src="images/aon.svg" alt="AON" /></div>
+        <div class="logo"><img src="images/metlife.svg" alt="MetLife" /></div>
+        <div class="logo"><img src="images/NewYorkLife.svg" alt="New York Life" /></div>
+        <div class="logo"><img src="images/humana.svg" alt="Humana" /></div>
+      </div>
+
+      <!-- ===== PHONE CAROUSELS (one per row) ===== -->
+      <!-- Row 1 -->
+      <div class="logo-carousel" id="logos-row1" aria-label="Customer logos row 1">
+        <div class="logo-carousel__viewport">
+          <div class="logo-carousel__track">
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/chevron.svg" alt="Chevron"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/Barclays.svg" alt="Barclays"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/homedepot.svg" alt="The Home Depot"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/ey.svg" alt="EY"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/corelogic.svg" alt="CoreLogic"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/dupont.svg" alt="DuPont"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="logo-carousel" id="logos-row2" aria-label="Customer logos row 2">
+        <div class="logo-carousel__viewport">
+          <div class="logo-carousel__track">
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/Reuters.svg" alt="Thomson Reuters"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/MassMutual.svg" alt="MassMutual"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/moodys.svg" alt="Moody’s"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="logo-carousel" id="logos-row3" aria-label="Customer logos row 3">
+        <div class="logo-carousel__viewport">
+          <div class="logo-carousel__track">
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/verizon.svg" alt="Verizon"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/pwc.svg" alt="PwC"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/aon.svg" alt="AON"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/metlife.svg" alt="MetLife"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/NewYorkLife.svg" alt="New York Life"></div></div>
+            <div class="logo-carousel__slide"><div class="logo"><img src="images/humana.svg" alt="Humana"></div></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<section id="business-features">
+  <div class="features-container">
+    <h2 class="features-title" id="heading">Why Choose Our Business Rule Engine?</h2>
+    <p class="features-sub" id="paragraph">The only rule engine you’ll ever need. Built by developers, for developers.</p>
+
+    <div class="features-grid">
+      <!-- Box 1 -->
+      <div class="feature-box" id="feature-nocode">
+        <div class="feature-icon" aria-hidden="true">
+          <img src="images/left-right.svg"/>
+        </div>
+        <h3 class="feature-heading">No-Code Rule Editing</h3>
+        <p class="feature-text">Create and modify business rules without writing a single line of code.</p>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="feature-box" id="feature-performance">
+        <div class="feature-icon" aria-hidden="true">
+          <img src="images/lightning.svg"/>
+        </div>
+        <h3 class="feature-heading">High Performance</h3>
+        <p class="feature-text">Execute thousands of rules per second with minimal latency.</p>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="feature-box" id="feature-dotnet">
+        <div class="feature-icon" aria-hidden="true">
+          <img src="images/gear.svg"/>
+        </div>
+        <h3 class="feature-heading">.NET Integration</h3>
+        <p class="feature-text">Seamlessly integrate with your existing .NET applications.</p>
+      </div>
+
+      <!-- Box 4 -->
+      <div class="feature-box" id="feature-scale">
+        <div class="feature-icon" aria-hidden="true">
+<img src="images/cloud.svg"/>
+        </div>
+        <h3 class="feature-heading">Enterprise Scale</h3>
+        <p class="feature-text">Built to handle enterprise workloads with confidence.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bre-hero">
+  <div class="bre-container">
+    <div class="bre-grid">
+      <!-- Left: two image cards (placeholders) -->
+      <div class="bre-figure" aria-hidden="true">
+        <div class="bre-card bre-card--tall">
+          <div class="bre-media">
+            <!-- Placeholder image (replace anytime) -->
+            <img src="images/1bbb61872df997aa0a53f34e0b475104ab8ecaec.jpg" alt="" />
+          </div>
+        </div>
+        <div class="bre-card bre-card--short">
+          <div class="bre-media">
+            <img src="images/5ed75d0764ab6b767736da143fefd119c065995d.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: text content -->
+      <div id="bre-padding">
+        <h2 class="bre-title" id="heading">What is a business rules engine?</h2>
+        <p class="bre-copy" id="paragraph">
+          A Business Rules Engine (BRE) is a strategic tool that enables organizations to automate
+          complex decision-making with speed, accuracy, and consistency. It uses predefined logic—like
+          “if-then” or “if-else” conditions—to drive operational decisions in real time, ensuring
+          compliance, scalability, and responsiveness across business functions.
+        </p>
+        <div>
+          <button class="card-btn" type="button">Features</button>
+          <button class="card-btn" type="button">Live Demo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tf-testimonials">
+  <div class="tf-wrap">
+    <div class="tf-head">
+      <div>
+        <h2 class="tf-title" id="heading">What Our Users Say</h2>
+        <p class="tf-sub" id="paragraph">Real feedback from teams who’ve embedded their rule management with CodeEffects.</p>
+      </div>
+      <div class="tf-arrows">
+        <button class="tf-btn" type="button" id="tf-prev" aria-label="Previous">
+          <svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg>
+        </button>
+        <button class="tf-btn" type="button" id="tf-next" aria-label="Next">
+          <svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="tf-viewport">
+      <div class="tf-track" id="tf-track">
+        <!-- Slide 1 -->
+        <article class="tf-card is-1">
+          <div class="tf-inner">
+            <div class="tf-header">
+              <span class="tf-avatar"><img src="images/4a56d454f235cd5c1971dead64a93dc4aaa9a014.jpg" alt=""></span>
+              <div class="tf-meta">
+                <h3 class="tf-name">Maxn Raval</h3>
+                <div class="tf-stars">
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-half"></span>
+                </div>
+              </div>
+            </div>
+            <p class="tf-quote">"This rule engine transformed our business logic management. We reduced deployment time by 70% and our business users can now modify rules independently."</p>
+          </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="tf-card is-2">
+          <div class="tf-inner">
+            <div class="tf-header">
+              <span class="tf-avatar"><img src="images/4ffde7165e260e2e279d043e1b6d943cb283c7a8.jpg" alt=""></span>
+              <div class="tf-meta">
+                <h3 class="tf-name">Venely K</h3>
+                <div class="tf-stars">
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-half"></span>
+                </div>
+              </div>
+            </div>
+            <p class="tf-quote">"This rule engine transformed our business logic management. We reduced deployment time by 70% and our business users can now modify rules independently."</p>
+          </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="tf-card is-3">
+          <div class="tf-inner">
+            <div class="tf-header">
+              <span class="tf-avatar"><img src="images/48588321ff69f90e7d4eef1028e0f502f53fa5a6.jpg" alt=""></span>
+              <div class="tf-meta">
+                <h3 class="tf-name">Lli Thakur</h3>
+                <div class="tf-stars">
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-star"><svg viewBox="0 0 24 24"><path d="M12 3l3 6.2 6.8.6-5.1 4.1 1.9 6.8L12 17.7 5.4 20.7l1.9-6.8-5.1-4.1 6.8-.6z"/></svg></span>
+                  <span class="tf-half"></span>
+                </div>
+              </div>
+            </div>
+            <p class="tf-quote">"This rule engine transformed our business logic management. We reduced deployment time by 70% and our business users can now modify rules independently."</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="business-cards">
+  <div class="cards-container">
+    <h2 class="cards-title" id="heading">Why Choose Our Business Rule Engine?</h2>
+    <p class="cards-sub" id="paragraph">The only rule engine you’ll ever need. Built by developers, for developers.</p>
+
+    <div class="cards-grid">
+      <!-- Box 1 -->
+      <div class="card-box">
+        <div class="card-icon">
+          <img src="images/play.svg" alt="">
+        </div>
+        <h3 class="card-heading">Design and Test Rules Without Code</h3>
+        <p class="card-text">
+          Visual rule designer with real-time testing and validation. No technical knowledge required.
+        </p>
+        <button class="card-btn">Read More</button>
+      </div>
+
+      <!-- Box 2 -->
+      <div class="card-box">
+        <div class="card-icon">
+          <img src="images/right-left arrows.svg" alt="">
+        </div>
+        <h3 class="card-heading">Integrate with .NET in Minutes</h3>
+        <p class="card-text">
+          Simple NuGet package installation. Rich API with comprehensive documentation and examples.
+        </p>
+        <button class="card-btn">Read More</button>
+      </div>
+
+      <!-- Box 3 -->
+      <div class="card-box">
+        <div class="card-icon">
+          <img src="images/database.svg" alt="">
+        </div>
+        <h3 class="card-heading">Audit and Version Control Built-In</h3>
+        <p class="card-text">
+          Track every change, maintain rule history, and rollback when needed. Full compliance support.
+        </p>
+        <button class="card-btn">Read More</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how-it-works-section">
+
+  <!-- Code Example Block -->
+  <div class="code-block-container">
+    <img src="images/Paragraph+Background.png" alt="">
+  </div>
+
+  <!-- Content Area -->
+  <div class="content-wrapper" id="how-it-works-content">
+    <h2 id="heading">How It Works</h2>
+    <p class="subtitle" id="paragraph">
+      From no-code rule editing to seamless .NET integration, our engine is built to solve real-world challenges efficiently.
+    </p>
+
+    <!-- Feature 1 -->
+    <div class="feature-block" id="feature-speed">
+      <div class="feature-icon-placeholder"></div>
+      <div class="feature-text">
+        <h4>Lightning-Fast Execution</h4>
+        <p>Our proprietary engine processes over 100,000 rules per second with sub-millisecond latency.</p>
+      </div>
+    </div>
+
+    <!-- Feature 2 -->
+    <div class="feature-block" id="feature-memory">
+      <div class="feature-icon-placeholder"></div>
+      <div class="feature-text">
+        <h4>Memory Optimized</h4>
+        <p>Intelligent caching and rule compilation reduces memory footprint by 60%.</p>
+      </div>
+    </div>
+
+    <!-- Feature 3 -->
+    <div class="feature-block" id="feature-deploy">
+      <div class="feature-icon-placeholder"></div>
+      <div class="feature-text">
+        <h4>Flexible Deployment</h4>
+        <p>On-premise, cloud, or hybrid. Docker containers and Kubernetes ready.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="blog-articles">
+  <div class="ba-container">
+    <h2 class="ba-title" id="heading">From the Blog</h2>
+    <p class="ba-sub" id="paragraph">Explore expert insights, best practices, and deep dives into rule-based automation.</p>
+
+    <div class="ba-grid">
+      <!-- Card 1 -->
+      <article class="ba-card" id="ba-card-tutorial">
+        <span class="ba-chip">
+          <img src="images/star.svg" alt="">
+          Tutorial
+        </span>
+        <p class="ba-excerpt">A comprehensive guide to implementing your first rule engine…</p>
+        <div class="ba-row">
+          <div class="ba-thumb">
+            <img src="images/841d89608045dc1f0567bc9b73279bde74fda0f2.jpg" alt="">
+          </div>
+          <span class="ba-divider" aria-hidden="true"></span>
+          <h3 class="ba-heading">Getting Started with Business Rules</h3>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="ba-card" id="ba-card-performance">
+        <span class="ba-chip">
+                    <img src="images/star.svg" alt="">
+          Performance
+        </span>
+        <p class="ba-excerpt">How to achieve maximum performance with complex rule sets…</p>
+        <div class="ba-row">
+          <div class="ba-thumb">
+            <img src="images/ab826e9d304c19bf8ffc89322e9f5677a8c36f3a.jpg" alt="">
+          </div>
+          <span class="ba-divider" aria-hidden="true"></span>
+          <h3 class="ba-heading">Performance Optimization Best Practices</h3>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="ba-card" id="ba-card-security">
+        <span class="ba-chip">
+                    <img src="images/star.svg" alt="">
+          Security
+        </span>
+        <p class="ba-excerpt">Meeting regulatory requirements with rule-based systems…</p>
+        <div class="ba-row">
+          <div class="ba-thumb">
+            <img src="images/c2a335bf290cc4f0d2dda90868903fd6609464de.jpg" alt="">
+          </div>
+          <span class="ba-divider" aria-hidden="true"></span>
+          <h3 class="ba-heading">Enterprise Security and Compliance</h3>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Outer container -->
+<div id="faq-section-container">
+  <div id="faq-section-wrapper">
+    <h2 id="heading">We Thought You Might Ask</h2>
+    <p id="paragraph">Got questions? We've answered the most common queries about our Business Rule Engine.</p>
+ <div id="faq-padding">
+    <div class="faq-section-item" id="faq-section-item1">
+      <button class="faq-section-question">
+        How do I integrate it into my existing .NET application?
+        <span class="faq-section-arrow">
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="#020817" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="faq-section-answer">
+        You can integrate using our SDK and API documentation with minimal changes to your existing app.
+      </div>
+    </div>
+ 
+    <div class="faq-section-item" id="faq-section-item2">
+      <button class="faq-section-question">
+        Can I edit rules without coding knowledge?
+        <span class="faq-section-arrow">
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="#020817" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="faq-section-answer">
+        Yes, our intuitive UI allows non-technical users to create and edit rules without coding.
+      </div>
+    </div>
+ 
+    <div class="faq-section-item" id="faq-section-item3">
+      <button class="faq-section-question">
+        Is it available for cloud deployment?
+        <span class="faq-section-arrow">
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="#020817" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="faq-section-answer">
+        Absolutely! We support both on-premise and cloud deployment.
+      </div>
+    </div>
+ 
+    <div class="faq-section-item" id="faq-section-item4">
+      <button class="faq-section-question">
+        What kind of performance can I expect?
+        <span class="faq-section-arrow">
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="#020817" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="faq-section-answer">
+        Our engine is optimized for high performance and can handle thousands of rules efficiently.
+      </div>
+    </div>
+ 
+    <div class="faq-section-item" id="faq-section-item5">
+      <button class="faq-section-question">
+        Do you offer technical support?
+        <span class="faq-section-arrow">
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="#020817" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="faq-section-answer">
+        Yes, we provide 24/7 technical support via email and chat.
+      </div>
+    </div>
+ 
+    <div class="faq-section-item" id="faq-section-item6">
+      <button class="faq-section-question">
+        Can I try it before purchasing?
+        <span class="faq-section-arrow">
+          <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L5 5L9 1" stroke="#020817" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </button>
+      <div class="faq-section-answer">
+        We offer a free trial so you can explore all features before making a purchase.
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+  <!-- ========== NEWSLETTER ========== -->
+  <section id="section-newsletter" class="newsletter-section">
+    <div class="container newsletter-container">
+      <h2>Stay Connected!</h2>
+      <p>Receive email notifications about new updates, releases, and everything related to Code Effects. Your email
+        address will never be sold or <a href="#">misused in any way.</a></p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Your Email Address" />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer id="section-footer" class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-about">
+        <a href="#" class="footer-logo"><img src="images/12_2005.svg" alt="Code Effects Logo" /></a>
+        <p>Code Effects is the fastest and most intuitive business rules engine employed by governments and Fortune 500
+          companies in mission-critical projects all over the world</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Documentation</h4>
+        <ul>
+          <li><a href="#">Code Effect Basics</a></li>
+          <li><a href="#">Creating Rules</a></li>
+          <li><a href="#">Evaluating Rules</a></li>
+          <li><a href="#">Data Filtering</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Purchase</h4>
+        <ul>
+          <li><a href="#">License Types</a></li>
+          <li><a href="#">Request Our Price List</a></li>
+          <li><a href="#">Portal Log In</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Demo</h4>
+        <ul>
+          <li><a href="#">Online Demo</a></li>
+          <li><a href="#">Data Filter Demo</a></li>
+          <li><a href="#">Demo Projects</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">EULA</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2008 - 2025 Code Effects Software</p>
+    </div>
+  </footer>
+<script src="function.js"></script>
+</body>
+</html>
